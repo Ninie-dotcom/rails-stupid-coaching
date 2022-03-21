@@ -1,0 +1,36 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+  font-size: 50px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.question {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 8px solid grey;
+}
+.answer {
+  background-color: #ffffe1;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 8px solid grey;
+}
+
+p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: lightseagreen;
+  &:hover {
+    color: lightcoral;
+  }
+}
